@@ -1,0 +1,372 @@
+/* 
+    Document   : mobile
+    Created on : 6/Jun/2014, 16:04:43
+    Author     : Carlos Seixas
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+/* MOBILE CSS */
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media (max-device-width : 1024px) {
+    /* STYLES GO HERE */
+    html{
+        height: 100%;
+    }
+    body{
+        position:relative;
+        height: 100%;
+        color:white;
+        font-family: 'Roboto', sans-serif;
+        background-image: url(../_img/BG-small.jpg);
+        background-position:top center;
+    }
+    .left{
+        float:left
+    }
+    .right{
+        float:right
+    }
+    /* **************************** HEADER **************************** */
+    #header{
+        position:relative;
+    }
+    #header h1,header h2{
+        font-size:0px;
+    }
+    h3{
+        font-size:40px;
+        color:white;
+    }
+    #boombap{
+        width:100%;
+        max-width:450px;
+    }
+    #slotmachine{
+        width:100%;
+        max-width:500px;
+    }
+
+    /* **************************** CONTENT **************************** */
+    article.content-container{
+        width:90%;
+        max-width:586px;
+        display:block;
+
+    }
+    .classname {
+        background-color:rgba(0, 0, 0, 0.8);
+        border:none;
+        display:inline-block;
+        font-style:normal;
+        text-decoration:none;
+        text-align:center;
+        text-shadow:1px 1px 0px #cd8a15;
+        font-family: 'Playfair Display SC', serif;
+        -webkit-box-shadow:inset 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+        -moz-box-shadow:inset 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+        box-shadow: inset 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+        color:#fff;
+        cursor:pointer;
+        font-size:18px;
+        height:4.6em;
+        line-height:4.6em;
+        width:100%;
+        max-width:500px;
+
+    }
+
+    #rodar{
+        font-size:22px;
+        height:5em;
+        line-height:5em;
+    }
+    .classname:hover {
+        background-color:rgba(255, 255, 255, 1);
+        color: red;
+    }
+    .classname:active {
+        position:relative;
+        top:1px;
+    }
+    /* **************************** FORM **************************** */
+
+    .input {
+        background-color:rgba(0, 0, 0, 0.8);
+        border:none;
+        display:inline-block;
+        font-family: 'Playfair Display SC', serif;
+        font-size:14px;
+        font-weight:normal;
+        font-style:normal;
+        text-decoration:none;
+        text-align:center;
+        text-shadow:1px 1px 0px #cd8a15;
+        text-align: left;
+        -webkit-box-shadow:inset 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+        -moz-box-shadow:inset 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+        box-shadow: inset 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+        color:#ffffff;
+        text-indent:20px;
+        width:100%;
+        height:3.750em;
+        line-height:1.875em;
+        max-width:500px;
+    }
+    .input:focus {
+        background-color:rgba(0, 0, 0, 0.8);
+        -moz-box-shadow:inset 0px 0px 12px -2px #080808;
+        -webkit-box-shadow:inset 0px 0px 12px -2px #080808;
+        box-shadow:inset 0px 0px 12px -2px #080808;
+    }
+    #submit{
+        width:100%;
+        max-width:500px;
+    }
+    form label{
+        background-color:rgb(0, 0, 0);
+        border:none;        
+        font-size:14px;
+        font-family: 'Playfair Display SC', serif;
+        font-weight:normal;
+        font-style:italic;
+        text-decoration:none;
+        text-shadow:1px 1px 0px #cd8a15;
+        -webkit-box-shadow:inset 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+        -moz-box-shadow:inset 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+        box-shadow: inset 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+        color:#ffffff;
+        float:left;
+        width:90px; 
+        height:25px;
+        line-height:25px;
+        margin-left:40px;
+        margin-bottom:0px;
+    }
+    /* **************************** CLEARS **************************** */
+    .clear0{
+        height:5px;
+    }
+    .clear1{
+        height:0px;
+    }
+    .clear2{
+        height:20px;
+    }
+    .clear3{
+        height:30px;
+    }
+    .clear4{
+        height:0px
+    }
+    .clear65{
+        height:10px
+    }
+    .clear10{
+        clear:both;
+        height:10px;
+    }
+    .clear20{
+        clear:both;
+        height:10px;
+    }
+    .clear40{
+        clear:both;
+        height:40px;
+    }
+    .clear100{
+        clear:both;
+        height:100px;
+    }
+    .hide320{
+        display:none
+    } 
+
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media (max-device-width : 480px) {
+    /* STYLES GO HERE */
+    html{
+        height: 100%;
+    }
+    body{
+        position:relative;
+        height: 100%;
+        color:white;
+        font-family: 'Roboto', sans-serif;
+        background-image: url(../_img/BG-small.jpg);
+        background-position:top center;
+    }
+    .left{
+        float:left
+    }
+    .right{
+        float:right
+    }
+    /* **************************** HEADER **************************** */
+    #header{
+        position:relative;
+    }
+    #header h1,header h2{
+        font-size:0px;
+    }
+    h3{
+        font-size:40px;
+        color:white;
+    }
+    #boombap{
+        width:100%;
+        max-width:300px;
+    }
+    #slotmachine{
+        width:100%;
+        max-width:500px;
+    }
+
+    /* **************************** CONTENT **************************** */
+    article.content-container{
+        width:80%;
+        max-width:500px;
+        display:block;
+
+    }
+    .classname {
+        background-color:rgba(0, 0, 0, 0.8);
+        border:none;
+        display:inline-block;
+        font-style:normal;
+        text-decoration:none;
+        text-align:center;
+        text-shadow:1px 1px 0px #cd8a15;
+        font-family: 'Playfair Display SC', serif;
+        -webkit-box-shadow:inset 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+        -moz-box-shadow:inset 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+        box-shadow: inset 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+        color:#fff;
+        cursor:pointer;
+        font-size:18px;
+        height:50px;
+        line-height:50px;
+        width:100%;
+        max-width:500px;
+
+    }
+    #rodar{
+        font-size:22px;
+        height:5em;
+        line-height:5em;
+    }
+    .classname:hover {
+        background-color:rgba(255, 255, 255, 1);
+        color: red;
+    }
+    .classname:active {
+        position:relative;
+        top:1px;
+    }
+    /* **************************** FORM **************************** */
+
+    .input {
+        background-color:rgba(0, 0, 0, 0.8);
+        border:none;
+        display:inline-block;
+        font-family: 'Playfair Display SC', serif;
+        font-size:14px;
+        font-weight:normal;
+        font-style:normal;
+        text-decoration:none;
+        text-align:center;
+        text-shadow:1px 1px 0px #cd8a15;
+        text-align: left;
+        -webkit-box-shadow:inset 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+        -moz-box-shadow:inset 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+        box-shadow: inset 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+        color:#ffffff;
+        text-indent:20px;
+        width:100%;
+        height:40px;
+        line-height:20px;
+        max-width:500px;
+    }
+    .input:focus {
+        background-color:rgba(0, 0, 0, 0.8);
+        -moz-box-shadow:inset 0px 0px 12px -2px #080808;
+        -webkit-box-shadow:inset 0px 0px 12px -2px #080808;
+        box-shadow:inset 0px 0px 12px -2px #080808;
+    }
+    #submit{
+        width:100%;
+        max-width:586px;
+    }
+    form label{
+        background-color:rgb(0, 0, 0);
+        border:none;        
+        font-size:13px;
+        font-family: 'Playfair Display SC', serif;
+        font-weight:normal;
+        font-style:italic;
+        text-decoration:none;
+        text-shadow:1px 1px 0px #cd8a15;
+        -webkit-box-shadow:inset 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+        -moz-box-shadow:inset 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+        box-shadow: inset 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+        color:#ffffff;
+        float:left;
+        width:90px; 
+        height:25px;
+        line-height:25px;
+        margin-left:10px;
+        margin-bottom:-5px;
+    }
+    /* **************************** CLEARS **************************** */
+    .clear0{
+        height:5px;
+    }
+    .clear1{
+        height:0px;
+    }
+    .clear2{
+        height:20px;
+    }
+    .clear3{
+        height:30px;
+    }
+    .clear4{
+        height:0px
+    }
+    .clear65{
+        height:10px
+    }
+    .clear10{
+        clear:both;
+        height:10px;
+    }
+    .clear20{
+        clear:both;
+        height:10px;
+    }
+    .clear40{
+        clear:both;
+        height:40px;
+    }
+    .clear100{
+        clear:both;
+        height:100px;
+    }
+    .hide320{
+        display:none
+    } 
+
+}

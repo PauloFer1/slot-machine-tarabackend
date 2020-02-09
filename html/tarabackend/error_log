@@ -1,0 +1,83 @@
+[13-Jun-2014 12:48:16 Europe/Lisbon] PHP Notice:  Undefined variable: dir in /home/slot/public_html/boombap/tarambola/plugins/utilizadores/views/index.php on line 204
+[13-Jun-2014 12:48:27 Europe/Lisbon] PHP Notice:  Undefined variable: dir in /home/slot/public_html/boombap/tarambola/plugins/utilizadores/views/index.php on line 204
+[13-Jun-2014 12:48:45 Europe/Lisbon] PHP Notice:  Undefined variable: dir in /home/slot/public_html/boombap/tarambola/plugins/utilizadores/views/index.php on line 204
+[13-Jun-2014 12:48:51 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/documentos/DocumentosController.php on line 221
+[13-Jun-2014 12:48:51 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/documentos/DocumentosController.php on line 225
+[13-Jun-2014 12:48:51 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/documentos/DocumentosController.php on line 221
+[13-Jun-2014 12:48:51 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/documentos/DocumentosController.php on line 225
+[13-Jun-2014 12:48:59 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/documentos/DocumentosController.php on line 221
+[13-Jun-2014 12:48:59 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/documentos/DocumentosController.php on line 225
+[13-Jun-2014 12:49:03 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/documentos/DocumentosController.php on line 221
+[13-Jun-2014 12:49:03 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/documentos/DocumentosController.php on line 225
+[13-Jun-2014 12:49:06 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/documentos/DocumentosController.php on line 221
+[13-Jun-2014 12:49:06 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/documentos/DocumentosController.php on line 225
+[13-Jun-2014 12:49:14 Europe/Lisbon] PHP Notice:  Undefined variable: dir in /home/slot/public_html/boombap/tarambola/plugins/utilizadores/views/index.php on line 204
+[13-Jun-2014 12:49:24 Europe/Lisbon] PHP Notice:  Undefined variable: dir in /home/slot/public_html/boombap/tarambola/plugins/utilizadores/views/index.php on line 204
+[13-Jun-2014 12:49:33 Europe/Lisbon] PHP Notice:  Undefined variable: dir in /home/slot/public_html/boombap/tarambola/plugins/utilizadores/views/index.php on line 204
+[13-Jun-2014 12:49:37 Europe/Lisbon] PHP Notice:  Undefined variable: dir in /home/slot/public_html/boombap/tarambola/plugins/utilizadores/views/index.php on line 204
+[13-Jun-2014 12:49:40 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/documentos/DocumentosController.php on line 221
+[13-Jun-2014 12:49:40 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/documentos/DocumentosController.php on line 225
+[13-Jun-2014 12:49:40 Europe/Lisbon] PHP Warning:  Invalid argument supplied for foreach() in /home/slot/public_html/boombap/tarambola/plugins/documentos/views/index.php on line 133
+[13-Jun-2014 12:49:45 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/documentos/DocumentosController.php on line 221
+[13-Jun-2014 12:49:45 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/documentos/DocumentosController.php on line 225
+[13-Jun-2014 12:49:45 Europe/Lisbon] PHP Warning:  Invalid argument supplied for foreach() in /home/slot/public_html/boombap/tarambola/plugins/documentos/views/index.php on line 133
+[13-Jun-2014 12:51:50 Europe/Lisbon] PHP Fatal error:  Call to a member function childrenAll() on a non-object in /home/slot/public_html/boombap/tarambola/plugins/formularios/Mensagem.php on line 80
+[13-Jun-2014 14:43:46 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/modulos/views/index.php on line 153
+[13-Jun-2014 15:40:29 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/modulos/views/index.php on line 153
+[13-Jun-2014 16:01:26 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/modulos/views/index.php on line 153
+[13-Jun-2014 16:07:06 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/modulos/views/index.php on line 153
+[13-Jun-2014 16:27:58 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/modulos/views/index.php on line 153
+[13-Jun-2014 22:07:17 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/modulos/views/index.php on line 153
+[13-Jun-2014 22:07:37 Europe/Lisbon] PHP Fatal error:  Call to a member function childrenAll() on a non-object in /home/slot/public_html/boombap/tarambola/plugins/formularios/Mensagem.php on line 80
+[13-Jun-2014 22:07:46 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/modulos/views/index.php on line 153
+[13-Jun-2014 22:08:05 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/modulos/views/index.php on line 153
+[16-Jun-2014 12:22:09 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/modulos/views/index.php on line 153
+[28-Jun-2014 12:41:01 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/modulos/views/index.php on line 153
+[01-Jul-2014 16:27:57 Europe/Lisbon] PHP Notice:  Undefined variable: dir in /home/slot/public_html/boombap/tarambola/plugins/utilizadores/views/index.php on line 204
+[01-Jul-2014 16:30:00 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/modulos/views/index.php on line 153
+[01-Jul-2014 16:31:58 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/modulos/views/index.php on line 153
+[01-Jul-2014 16:34:42 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/modulos/views/index.php on line 153
+[01-Jul-2014 16:34:47 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/modulos/views/index.php on line 153
+[01-Jul-2014 16:34:50 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/modulos/views/index.php on line 153
+[01-Jul-2014 20:38:48 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/modulos/views/index.php on line 153
+[01-Jul-2014 20:39:39 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/modulos/views/index.php on line 153
+[07-Jul-2014 02:21:26 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/modulos/views/index.php on line 153
+[07-Jul-2014 17:08:39 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/modulos/views/index.php on line 153
+[07-Jul-2014 17:08:59 Europe/Lisbon] PHP Notice:  Undefined property: stdClass::$website in /home/slot/public_html/boombap/tarambola/app/views/setting/index.php on line 63
+[07-Jul-2014 17:08:59 Europe/Lisbon] PHP Fatal error:  Method View::__toString() must not throw an exception in /home/slot/public_html/boombap/tarambola/app/layouts/backend.php on line 0
+[07-Jul-2014 17:11:42 Europe/Lisbon] PHP Notice:  Undefined property: stdClass::$website in /home/slot/public_html/boombap/tarambola/app/views/setting/index.php on line 63
+[07-Jul-2014 17:11:42 Europe/Lisbon] PHP Fatal error:  Method View::__toString() must not throw an exception in /home/slot/public_html/boombap/tarambola/app/layouts/backend.php on line 0
+[07-Jul-2014 17:11:55 Europe/Lisbon] PHP Notice:  Constant formularios_LOG_EMERG already defined in /home/slot/public_html/boombap/tarambola/plugins/formularios/index.php on line 4
+[07-Jul-2014 17:11:55 Europe/Lisbon] PHP Notice:  Constant formularios_LOG_ALERT already defined in /home/slot/public_html/boombap/tarambola/plugins/formularios/index.php on line 5
+[07-Jul-2014 17:11:55 Europe/Lisbon] PHP Notice:  Constant formularios_LOG_CRIT already defined in /home/slot/public_html/boombap/tarambola/plugins/formularios/index.php on line 6
+[07-Jul-2014 17:11:55 Europe/Lisbon] PHP Notice:  Constant formularios_LOG_ERR already defined in /home/slot/public_html/boombap/tarambola/plugins/formularios/index.php on line 7
+[07-Jul-2014 17:11:55 Europe/Lisbon] PHP Notice:  Constant formularios_LOG_WARNING already defined in /home/slot/public_html/boombap/tarambola/plugins/formularios/index.php on line 8
+[07-Jul-2014 17:11:55 Europe/Lisbon] PHP Notice:  Constant formularios_LOG_NOTICE already defined in /home/slot/public_html/boombap/tarambola/plugins/formularios/index.php on line 9
+[07-Jul-2014 17:11:55 Europe/Lisbon] PHP Notice:  Constant formularios_LOG_INFO already defined in /home/slot/public_html/boombap/tarambola/plugins/formularios/index.php on line 10
+[07-Jul-2014 17:11:55 Europe/Lisbon] PHP Notice:  Constant formularios_LOG_DEBUG already defined in /home/slot/public_html/boombap/tarambola/plugins/formularios/index.php on line 11
+[07-Jul-2014 17:11:57 Europe/Lisbon] PHP Notice:  Constant FILES_DIR already defined in /home/slot/public_html/boombap/tarambola/plugins/file_manager/index.php on line 22
+[07-Jul-2014 17:11:57 Europe/Lisbon] PHP Notice:  Constant BASE_FILES_DIR already defined in /home/slot/public_html/boombap/tarambola/plugins/file_manager/index.php on line 27
+[07-Jul-2014 17:12:02 Europe/Lisbon] PHP Notice:  Constant DOCUMENTS_DIR already defined in /home/slot/public_html/boombap/tarambola/plugins/documentos/index.php on line 30
+[07-Jul-2014 17:12:02 Europe/Lisbon] PHP Notice:  Constant BASE_DOCUMENTS_DIR already defined in /home/slot/public_html/boombap/tarambola/plugins/documentos/index.php on line 35
+[07-Jul-2014 17:12:11 Europe/Lisbon] PHP Notice:  Constant configuracoes_LOG_EMERG already defined in /home/slot/public_html/boombap/tarambola/plugins/configuracoes/index.php on line 4
+[07-Jul-2014 17:12:11 Europe/Lisbon] PHP Notice:  Constant configuracoes_LOG_ALERT already defined in /home/slot/public_html/boombap/tarambola/plugins/configuracoes/index.php on line 5
+[07-Jul-2014 17:12:11 Europe/Lisbon] PHP Notice:  Constant configuracoes_LOG_CRIT already defined in /home/slot/public_html/boombap/tarambola/plugins/configuracoes/index.php on line 6
+[07-Jul-2014 17:12:11 Europe/Lisbon] PHP Notice:  Constant configuracoes_LOG_ERR already defined in /home/slot/public_html/boombap/tarambola/plugins/configuracoes/index.php on line 7
+[07-Jul-2014 17:12:11 Europe/Lisbon] PHP Notice:  Constant configuracoes_LOG_WARNING already defined in /home/slot/public_html/boombap/tarambola/plugins/configuracoes/index.php on line 8
+[07-Jul-2014 17:12:11 Europe/Lisbon] PHP Notice:  Constant configuracoes_LOG_NOTICE already defined in /home/slot/public_html/boombap/tarambola/plugins/configuracoes/index.php on line 9
+[07-Jul-2014 17:12:11 Europe/Lisbon] PHP Notice:  Constant configuracoes_LOG_INFO already defined in /home/slot/public_html/boombap/tarambola/plugins/configuracoes/index.php on line 10
+[07-Jul-2014 17:12:11 Europe/Lisbon] PHP Notice:  Constant configuracoes_LOG_DEBUG already defined in /home/slot/public_html/boombap/tarambola/plugins/configuracoes/index.php on line 11
+[07-Jul-2014 17:12:18 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/modulos/views/index.php on line 153
+[07-Jul-2014 17:12:21 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/modulos/views/index.php on line 153
+[07-Jul-2014 17:12:42 Europe/Lisbon] PHP Notice:  Undefined property: stdClass::$website in /home/slot/public_html/boombap/tarambola/app/views/setting/index.php on line 63
+[07-Jul-2014 17:12:42 Europe/Lisbon] PHP Fatal error:  Method View::__toString() must not throw an exception in /home/slot/public_html/boombap/tarambola/app/layouts/backend.php on line 0
+[07-Jul-2014 17:13:36 Europe/Lisbon] PHP Notice:  unserialize() [<a href='function.unserialize'>function.unserialize</a>]: Unexpected end of serialized data in /home/slot/public_html/boombap/tarambola/app/models/Plugin.php on line 39
+[07-Jul-2014 17:13:36 Europe/Lisbon] PHP Notice:  unserialize() [<a href='function.unserialize'>function.unserialize</a>]: Error at offset 446 of 447 bytes in /home/slot/public_html/boombap/tarambola/app/models/Plugin.php on line 39
+[07-Jul-2014 17:13:36 Europe/Lisbon] PHP Warning:  Invalid argument supplied for foreach() in /home/slot/public_html/boombap/tarambola/app/models/Plugin.php on line 40
+[07-Jul-2014 17:13:36 Europe/Lisbon] PHP Warning:  Invalid argument supplied for foreach() in /home/slot/public_html/boombap/tarambola/app/layouts/backend.php on line 53
+[07-Jul-2014 17:52:33 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/modulos/views/index.php on line 153
+[13-Aug-2014 11:05:57 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/modulos/views/index.php on line 153
+[13-Aug-2014 11:30:14 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/modulos/views/index.php on line 153
+[13-Aug-2014 11:36:03 Europe/Lisbon] PHP Notice:  Undefined variable: dir in /home/slot/public_html/boombap/tarambola/plugins/utilizadores/views/index.php on line 204
+[13-Aug-2014 11:36:06 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/modulos/views/index.php on line 153
+[13-Aug-2014 12:46:34 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/slot/public_html/boombap/tarambola/plugins/modulos/views/index.php on line 153

@@ -1,0 +1,242 @@
+/* 
+    Document   : style
+    Created on : 19/Mai/2014, 17:39:36
+    Author     : Carlos Seixas - Tarambola
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+html{
+    height: 100%;
+}
+body{
+    position:relative;
+    height: 100%;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../_img/BG.jpg);
+    background-position:center center;
+}
+.left{
+    float:left
+}
+.right{
+    float:right
+}
+
+/* **************************** HEADER **************************** */
+#header{
+    position:relative;
+}
+h3{
+    font-size:2.500em;
+    color:white;
+}
+#boombap{
+    width:50%;
+    max-width:18.563em;
+}
+#slotmachine{
+    width:100%;
+    max-width:44.45em;
+}
+
+/* **************************** CONTENT **************************** */
+article.content-container{
+    width:90%;
+    /*max-width:586px;*/
+    display:block;
+    margin-bottom:1.250em;
+}
+.classname {
+    background-color:rgba(0, 0, 0, 0.8);
+    border:1px solid red;
+    display:inline-block;
+    font-size:2.4em;
+    font-style:normal;
+    height:2em;
+    line-height:2em;
+    width:100%;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #cd8a15;
+    font-family: 'Playfair Display SC', serif;
+    -webkit-box-shadow:inset 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+    -moz-box-shadow:inset 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+    box-shadow: inset 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+    color:#fff;
+    cursor:pointer;
+
+}
+#rodar{
+    font-size:3em;
+    height:2.5em;
+    line-height:2.5em;
+}
+.classname:hover {
+    background-color:rgba(255, 255, 255, 1);
+    color: red;
+}
+.classname:active {
+    position:relative;
+    top:1px;
+}
+/* **************************** FORM **************************** */
+form input{
+    width:100%;
+}
+.input {
+    background-color:rgba(0, 0, 0, 0.8);
+    text-indent:0;
+    border:none;
+    display:inline-block;
+    font-family: 'Playfair Display SC', serif;
+    font-size:1.250em;
+    font-weight:normal;
+    font-style:normal;
+    height:6.250em;
+    line-height:6.250em;
+    width:100%;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #cd8a15;
+    text-indent: 5%;
+    text-align: left;
+    -webkit-box-shadow:inset 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+    -moz-box-shadow:inset 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+    box-shadow: inset 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+    color:#ffffff;
+    padding:0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+.input:focus {
+    background-color:rgba(0, 0, 0, 0.8);
+    -moz-box-shadow:inset 0px 0px 12px -2px #080808;
+    -webkit-box-shadow:inset 0px 0px 12px -2px #080808;
+    box-shadow:inset 0px 0px 12px -2px #080808;
+}
+#submit{
+    width:100%;
+    max-width:100%;
+}
+form label{
+    width:25%;
+    display:block;
+    background-color:rgb(0, 0, 0);
+    border:none;
+    font-family: 'Playfair Display SC', serif;
+    font-size:2em;
+    font-weight:normal;
+    font-style:italic;
+    height:3.125em;
+    line-height:3.125em;
+    text-decoration:none;
+    text-shadow:1px 1px 0px #cd8a15;
+    -webkit-box-shadow:inset 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+    -moz-box-shadow:inset 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+    box-shadow: inset 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+    color:#ffffff;
+    float:left;
+    margin-left:1.250em;
+    margin-bottom:-0.625em;
+}
+/* **************************** CLEARS **************************** */
+.clear1, .clear2, .clear3, .clear0, .clear4{
+    clear:both;
+    height:0.625em;
+}
+.clear10{
+    clear:both;
+    height:0.625em;
+}
+.clear20{
+    clear:both;
+    height:1.250em;
+}
+.clear40{
+    clear:both;
+    height:2.500em;
+}
+.clear65{
+    clear:both;
+    height:4.063em;
+}
+.clear100{
+    clear:both;
+    height:6.250em;
+}
+.messages-style h4{  
+    font-family: 'Playfair Display SC', serif;
+    font-size:2em;
+    color:white;
+    -webkit-box-shadow:inset 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+    -moz-box-shadow:inset 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+    box-shadow: inset 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+    background-color:rgba(0, 0, 0, 0.8);
+    padding:0.6em;}
+.messages-style h5{
+    font-family: 'Playfair Display SC', serif;
+    font-size:1.4em;
+    color:white;
+    -webkit-box-shadow:inset 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+    -moz-box-shadow:inset 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+    box-shadow: inset 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+    background-color:rgba(0, 0, 0, 0.8);
+    margin-top:0.5em;
+    padding:0.5em;
+}
+#alert-message{
+    position: fixed;
+    top:0px;
+    margin: 0px auto;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    background-image: url(../_img/white40.png);
+    background-repeat: repeat;
+    display: block;
+}
+#alert-message h4{
+    font-family: 'Playfair Display SC', serif;
+    font-size:2em;
+    color:rgb(0, 0, 0)
+}
+#alert-message span{
+    width:100%;
+    max-width:100%;
+    position: fixed;
+    margin: 0px auto;
+    padding:30px 0 30px 0;
+    background-color: #FFF;
+    display: block;
+    border: 1px solid #8C8C8C;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 7px #32a992;
+    display:block;
+    color:rgb(0, 0, 0);
+    font-size:1em;
+    font-family: 'Roboto', sans-sarif;
+}
+#alert-message p{
+    width:90%;
+}
+#alert-message a{
+    cursor:pointer;
+    border:1px solid #eeeeee;
+    padding:10px 20px 10px 20px;
+    background-color:rgb(0, 0, 0);
+    color:#FFF
+}
+#alert-message a:hover{
+    background-color:#fff;
+    color:rgb(0, 0, 0);
+}
