@@ -28,15 +28,29 @@ ENV APACHE_LOG_DIR /var/log/apache2
 ENV APACHE_LOCK_DIR /var/lock/apache2
 ENV APACHE_PID_FILE /var/run/apache2.pid
 ENV SITE_URI localhost:8080
+#ENV PORT 80
 
 # Expose apache.
-EXPOSE 80
+EXPOSE $PORT
 
 # Copy this repo into place.
 ADD html /var/www/html
+RUN chmod 777 /var/www/html/public/images
+RUN chmod 777 /var/www/html/public/js
+RUN chmod 777 /var/www/html/public/themes/default/_img
 
 # Update the default apache site with the config we created.
 ADD apache-config.conf /etc/apache2/sites-enabled/000-default.conf
+ADD ports.conf /etc/apache2/ports.conf
 
 # By default start up apache in the foreground, override with /bin/bash for interative.
 CMD /usr/sbin/apache2ctl -D FOREGROUND
+
+#CMD sed -i "s/80/$PORT/g" /etc/apache2/sites-enabled/000-default.conf /etc/apache2/ports.conf && /usr/sbin/apache2ctl -D FOREGROUND
+
+#update apache port at runtime for Heroku
+#ENTRYPOINT []
+#CMD sed -i "s/80/$PORT/g" /etc/apache2/sites-enabled/000-default.conf /etc/apache2/ports.conf && docker-php-entrypoint apache2-foreground
+#CMD sed -i "s/80/$PORT/g" /etc/apache2/sites-enabled/000-default.conf /etc/apache2/ports.conf
+#CMD /usr/sbin/apache2ctl -D FOREGROUND
+#CMD gunicorn --bind 0.0.0.0:$PORT wsgi

@@ -13,14 +13,15 @@ define('modulos_LOG_DEBUG',    7);
 
 Plugin::setInfos(array(
     'id'          => 'modulos',
-    'title'       => __('Modules'),
-    'description' => __('Modulos list'),
+    'title'       => 'Modules',
+    'description' => 'Modulos list',
     'version'     => '0.0',
     'license'     => 'MIT',
     'author'      => 'Paulo Fernandes',
     'require_tarambola_version' => '0.9.4',
     'website'     => 'http://www.tarambola.pt/'
 ));
+
 
 /* Stuff for backend. */
 if (strpos($_SERVER['PHP_SELF'], ADMIN_DIR.'/index.php')) {
@@ -30,5 +31,5 @@ if (strpos($_SERVER['PHP_SELF'], ADMIN_DIR.'/index.php')) {
     
     Plugin::addController('modulos', __('Modules'));
 
-   
-} 
+
+}

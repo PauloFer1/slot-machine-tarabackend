@@ -98,6 +98,7 @@ function getRollPage()
 }
 function rollSlot(id, unique_id)
 {
+
     //var url = 'http://slotmachine.noip.me:8080/'+unique_id+'/'+id+'/roll';
     var url = $('#appUrl').val()+'/'+unique_id+'/'+id+'/roll';
     var request = $.ajax({
@@ -119,7 +120,6 @@ function requestSlot(id, unique_id)
 {
     //var url = 'http://slotmachine.noip.me:8080/'+unique_id+'/'+id;
     var url = $('#appUrl').val()+'/'+unique_id+'/'+id;
-     //   alert(url);
     var request = $.ajax({
         url: url,
         type: 'POST',
@@ -138,9 +138,9 @@ function requestSlot(id, unique_id)
 function changeToRoll(id, unique_id)
 {
     requestSlot(id, unique_id);
-    var html='<div id="innerContainer"><div class="clear40"></div><div class="messages-style"><h5>PRESS ROOL TO PLAY</h5></div><br><button class="classname" id="rodar"><h4>ROLL</h4></button></div>';    
+    var html='<div id="innerContainer"><div class="clear40"></div><div class="messages-style"><h5>PRIMA ROLAR PARA JOGAR</h5></div><br><button class="classname" id="rodar"><h4>ROLAR</h4></button></div>';
     $('#formContainer').hide(800, function(){
-       $('.content-container').html(html); 
+       $('.content-container').html(html);
        setRollButton(id, unique_id);
     });
 }
@@ -153,6 +153,6 @@ function setRollButton(id, unique_id)
 }
 function changeToGoodLuck()
 {
-    var html='<div class="clear40"></div><div class="messages-style"><h4>GOOD LUCK!</h4></div>';    
+    var html='<div class="clear40"></div><div class="messages-style"><h4>BOA SORTE!</h4></div>';
     $('.content-container').html(html); 
 }

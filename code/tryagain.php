@@ -1,7 +1,7 @@
 <!-- ****************** CONTENT **************** -->
 <article class="content-container">
-<?php $wait = PAGE::find('mensagens/mensagens-mobile'); ?>
-    <img src="<? echo(URL_PUBLIC); ?>public/themes/default/_img/slotmachine.png" id="slotmachine" alt="" />
+    <?php $wait = PAGE::find('mensagens/mensagens-mobile'); ?>
+    <img src="<? echo($wait->getFirstImage('', 'image')); ?>" id="slotmachine" alt="" />
     <div class="clear2"></div>
     <div class="messages-style">
         <h4><?php $wait->pContent('wait'); ?></h4>
@@ -9,3 +9,4 @@
     </div>
 
 </article>
+

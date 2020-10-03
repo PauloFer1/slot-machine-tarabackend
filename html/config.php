@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 // Database information:
 // for SQLite, use sqlite:/tmp/tarambola.db (SQLite 3)
@@ -6,9 +6,9 @@
 // For more info look at: www.php.net/pdo
 
 // Database settings:
-define('DB_DSN', 'mysql:dbname=slot_machine;host=tarabackend.cwiu9dmvcutz.us-east-1.rds.amazonaws.com;port=3306');
-define('DB_USER', 'admin');
-define('DB_PASS', 'Snoof0Taram80la');
+define('DB_DSN', 'mysql:dbname=heroku_e0eb88a492f05f0;host=us-cdbr-east-02.cleardb.com;port=3306');
+define('DB_USER', 'b12e8050becfc2');
+define('DB_PASS', 'ee190d26');
 define('TABLE_PREFIX', 'tara_');
 
 //Tamanho M???ximo para upload de imagens
@@ -24,13 +24,18 @@ define('CHECK_UPDATES', false);
 // The number of seconds before the check for a new tarambola version times out in case of problems.
 define('CHECK_TIMEOUT', 3);
 
+//port
+define('PORT', $_SERVER['PORT']);
+
 //site domain
 define('SITE_NAME', $_SERVER['SERVER_NAME']);
+//define('SITE_NAME', 'slot-machine-selfieart.herokuapp.com:'.PORT.'/');
 // The full URL of your tarambola CMS install
-define('URL_PUBLIC', 'http://'.SITE_NAME.'/');
+define('URL_PUBLIC', 'https://'.SITE_NAME.'/');
 
 // url completo do servidor
 define( 'SERVER_URL', $_SERVER['DOCUMENT_ROOT'].'/');
+//define( 'SERVER_URL', 'slot-machine-selfieart.herokuapp.com/');
 
 // url das imagens
 
